@@ -10,6 +10,7 @@
 
 6. Envio de e-mail com mailtrap.io
 7. Template de e-mails
+8. Resetar senha com token de auth
 
 
 ##### Bibliotecas utilizadas:

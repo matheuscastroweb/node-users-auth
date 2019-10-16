@@ -131,6 +131,9 @@ router.post('/reset_password', async (req, res) => {
 
         //Se tudo der certo, seta a nova senha
         user.password = password;
+        //Após resetar a senha seta os campos para redefinição como undefined
+        user.passwordResetToken = undefined;
+        user.passwordResetExpires = undefined;
 
         //Aguarda salvar
         await user.save();

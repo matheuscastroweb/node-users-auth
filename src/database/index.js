@@ -4,6 +4,7 @@ mongoose.connect('mongodb+srv://matheuscastro:matheus123@node-api-eed5m.mongodb.
     useUnifiedTopology: true, 
     useNewUrlParser: true,
     useFindAndModify: false,
+    useCreateIndex:  true
 });
 
 mongoose.Promise = global.Promise;

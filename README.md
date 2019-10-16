@@ -17,4 +17,6 @@
 4. bcryptjs
 5. jsonwebtoken
 6. -D nodemon
+7. fs
+8. path
 

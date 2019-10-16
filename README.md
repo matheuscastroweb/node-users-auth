@@ -8,6 +8,9 @@
 4. Utilização de middlewares
 5. Criptografia de senhas e select: false
 
+6. Envio de e-mail com mailtrap.io
+7. Template de e-mails
+
 
 ##### Bibliotecas utilizadas:
 
@@ -19,4 +22,6 @@
 6. -D nodemon
 7. fs
 8. path
+9. nodemailer
+10. nodemailer-express-handlebars
 
